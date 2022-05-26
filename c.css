@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+
+#five{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 234, 234);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+#five  #icon{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    z-index: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 29px;    
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+ 
+  100%  {background-color:green; left:0px; top:-700px;}
+
+}
+#one{
+    position: relative;
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 234, 234);
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes example1 {
+    0%   { left:0px; top:0px;}
+   
+    100%  { left:0px; top:-600px;}
+  
+  }
+#one{position: relative;
+    width: 100vw;
+    height: 85vh;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+
+
+}
+.w3-content w3-section{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    object-fit: fill;
+    overflow: hidden;
+}
+#one #navigation #icon{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    z-index: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 29px;    
+}
+
+
+
+
+
+#two{position: relative;
+    width: 100vw;
+    height: 94vh;
+    background-color:rgb(243, 251, 251) ;
+    overflow-x: hidden;
+}
+#two #white{position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+    height: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+  
+
+}
+#two #image{position: absolute;
+    top: 0%;
+    right: 10%;
+   
+    width: 29%;
+ 
+   
+
+}
+#three{position: relative;
+    width: 100vw;
+    height: 120vh;
+    background-color:rgb(243, 251, 251) ;
+    overflow-x: hidden;
+}
+#three #yellow{position: absolute;
+    top: 0;
+    width: 100%;
+    height: 29vh;
+    background-color: #ead36d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    z-index: 1000;
+
+
+}
+ #cources{position: absolute;
+     bottom: -210%;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+}
+ #cources .box{
+    width: 250px;
+    height: 400px;
+    background-color: #ead36d;
+    border-radius: 10px;
+    border: 2px solid white;
+    object-fit: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+
+}
+ #cources .box:hover{
+    width: 270px;
+    height: 410px;
+}
+#cources .box .button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #ead36d;
+    border-radius: 10px;
+    margin-left: 40px;
+    color: #ead36d;
+}
+#four{position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 251, 251) ;
+    overflow-x: hidden;
+}
+#four #facuilty{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+   
+}
+
+#four #hader{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(47, 46, 46);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}

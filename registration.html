@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        .moveone{
+            animation-name: animationone;
+            animation-duration: 4s;
+            animation-iteration-count: 1;
+            
+            animation-fill-mode: forwards;           
+        }
+        .move{
+            animation-name: animation;
+            animation-duration: 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;           
+        }
+        @keyframes animation{
+            0%{right: 0%;}
+            100%{right: 16%;}
+        }
+        @keyframes animationone{
+            0%{left: 50%;}
+            100%{left: 10%;}
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1 class="moveone"  style="font-family:Arial, Helvetica, sans-serif; font-weight: 100;font-size: 290%;position: relative;top: 20%;left: 10%;">Barkhatullaha University <br> Institute Of Technology</h1>
+        <h4 class="moveone"  style="font-family:Arial, Helvetica, sans-serif; font-weight: 100;font-size: 100%;position: relative;top: 20%;left: 10%;width: 40%;padding-top: 2%;">Barkatullah University is a state government university in Bhopal, India. Originally known as the University of Bhopal, and informally as Bhopal University, it was renamed in 1988 after the freedom fighter Professor Maulavi Barkatullah, who was born in the area. Barkatullah University has been accredited as an A category university by the National Assessment and Accreditation Council (NAAC).</h4>
+       
+        <div class="move" style="width:250px ; height: 400px;background-color: white;position: absolute;top:20% ;right: 16%;border-radius: 10px;">
+        <div>
+            <div style="position: relative;padding-top: 10% ;left: 10%;">
+                <div style="padding-bottom:5% ;"> <label for="fname">First name:</label><br>
+                    <input style="height: 40px; width: 200px;" type="text" id="fname" name="fname" value=""><br></div>
+                  <div style="padding-bottom:5% ;"><label for="lname">Last name:</label><br>
+                    <input  style="height: 40px; width: 200px;" type="text" id="lname" name="lname" value=""></div>            
+                    <div style="padding-bottom:5% ;"><label for="lname">Id:</label><br>
+                        <input  style="height: 40px; width: 200px;" type="text" id="lname" name="lname" value=""></div>
+                <div style="padding-bottom:5% ;">
+                <label for="email"> Email:</label><br>
+                <input style="height: 40px; width: 200px;" type="email" id="email" name="email"><br></div>
+                <div style="padding-top:5% ;padding-left: 20%;">
+                    <button style="height:40px ; width:100px ;background-color: #f7e0e0;border: 2px solid white;border-radius: 10px;" ><a style="text-decoration: none;" href="h.html">Register Now</a></button>
+                </div>
+
+            </div>
+       </div>
+          
+    
+    </div>
+    
+</body>
+</html>

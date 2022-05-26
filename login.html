@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+
+    <style>
+        ul{
+          list-style-type:none;
+          margin: 0px;
+          padding: 0px;
+          position: absolute;
+          top: 0vh;
+          width: 100vw;
+          background-color: #f7e0e0;
+          overflow: hidden;
+          
+          
+          }
+        li{
+          float:right;
+          padding-right: 20px;
+          }
+        li a{
+          display: block;
+          color: white;
+          align-items: center;
+          padding: 14px ;
+          text-decoration: none;
+          }
+        li a:hover{
+          background-color: #111;
+          }
+        #one{
+          background-image: url("https://images.unsplash.com/photo-1601933552240-d6b9e8e01cdc?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071");
+          background-position:center;
+          background-size: cover;
+        }
+        #two{position: relative;
+          top: 10%;
+          left: 10%;
+          width: 80%;
+          height: 129%;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 100;
+          font-size: 20px;
+        }
+       #four{
+         background-color: white;
+       }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div id="navigation">
+          
+            <h1 id="icon">Barkhatullaha University</h1>
+    
+          
+          <div id="pages">
+            <ul>
+              <li><a href="login.html">LOGIN</a></li>
+              <li><a href="cources.html">COURSES</a></li>
+              <li><a href="aboutus.html">ABOUT US</a></li>
+              <li><a class="active" href="h.html" >HOME</a></li> 
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div id="two">
+      <h1>Sign Up</h1>
+      <form style="z-index:9999 ;">
+        <fieldset>
+          <legend>personal information:</legend>
+          <br>
+        <div style="display:flex; align-items: center; justify-content:space-around;">
+        <div> <label for="fname">First name:</label><br>
+          <input style="height: 40px; width: 290px;" type="text" id="fname" name="fname" value="John"><br></div>
+        <div><label for="lname">Last name:</label><br>
+          <input  style="height: 40px; width: 290px;" type="text" id="lname" name="lname" value="Doe"></div>
+        </div>
+        
+        <div  style="display:flex; align-items: center; justify-content:space-around;">
+          <div><label for="fname">Address :</label><br>
+            <input style="height: 40px; width: 290px;" type="text" id="fname" name="fname" value="address"><br></div>
+          <div><label for="fname">cources :</label><br>
+            <input style="height: 40px; width: 290px;" type="text" id="fname" name="fname" value="cources"><br></div>
+
+        </div>
+        <br>
+         
+      
+
+        <div style="display:flex; align-items: center; justify-content:space-around;">
+          <div><label for="email">Enter your email:</label><br>
+            <input style="height: 40px; width: 290px;" type="email" id="email" name="email"><br></div>
+          <div> <label for="cars">Choose a car:</label><br>
+            <select style="height: 40px; width: 290px;" id="cars" name="cars">
+              <option value="volvo">Diploma</option>
+              <option value="saab">Graduation</option>
+              <option value="fiat">Postgraduation</option>
+              <option value="audi">Phd</option>
+            </select></div>
+        </div><br>
+
+        <div style="display:flex; align-items: center; justify-content:space-around;">
+          <div><label for="birthday">Birthday:</label><br>
+            <input  style="height: 40px; width: 290px;" type="date" id="birthday" name="birthday"></div>
+            <div><label for="fname">City :</label><br>
+              <input style="height: 40px; width: 290px;" type="text" id="fname" name="fname" value="city"><br></div>
+        </div>
+        <br>
+
+        <div  style="display:flex; align-items: center; justify-content:space-around;">
+          
+        <div><label for="fname">Leave coment :</label><br>
+          <textarea style=" width: 500px;" name="message" rows="10" cols="30">Add coment</textarea></div>
+        
+        </div>
+
+        <div style="padding-left: 50px;">
+          <button  style="height:40px ; width:100px ; "  ><a style="text-decoration: none;" href="cources.html">submit</a></button>
+          
+          <input style="height:40px ; width:100px ;" type="reset">
+          <button style="height:40px ; width:100px ;" type="button" onclick="alert('All the personal informatio is right')">Click Me!</button>
+        
+
+        
+        </div>
+        <br>
+        
+
+
+       
+
+        
+
+       
+
+     
+          
+        </fieldset>
+
+        
+
+        
+
+        
+      </form>
+        
+    </div>
+    
+    <div id="four">
+      <div id="hader">
+        <div id="partone">
+          <h1>Barkhatullaha University</h1>
+        </div>
+        <div id="parttwo">
+         <h4>Barkhatullaha University <br>
+          Hostels <br>
+          Sports <br>
+          Digital Library <br>
+          Digital Classrooms <br>
+          Career Development Cell <br>
+          Achievements <br>
+          NIRF <br>
+           </h4>
+        </div>
+        <div id="partthree">
+          <h4> Reception : 0755-6185300,0755-6185300/1/2/3/4/5
+          <br><br>
+            Admission Cell : 7440777111, 7201800001, 0755-6185350, 0755-6685400
+           <br><br>
+            Training & Placement Cell : 9826062730, 0755-6185341
+           <br><br>
+            Email Id:BarkhatullahaUniversity@gmail.com</h4>
+        </div>        
+      </div>
+    </div>
+    
+</body>
+</html>
